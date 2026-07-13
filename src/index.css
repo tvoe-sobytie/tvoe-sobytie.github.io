@@ -5,6 +5,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    color-scheme: light only;
   }
   body {
     font-family: 'Raleway', sans-serif;
