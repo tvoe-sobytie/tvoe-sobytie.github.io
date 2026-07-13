@@ -1,0 +1,6 @@
+node_modules
+dist
+dist.zip
+.vs
+*.local
+.DS_Store
