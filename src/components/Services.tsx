@@ -303,7 +303,7 @@ export default function Services() {
 
     return (
         <section id="services" className="relative w-full py-16 md:py-24 overflow-hidden">
-            <div className="absolute inset-0 w-full h-full bg-[length:100%_auto] bg-top bg-no-repeat md:bg-cover md:bg-center" style={{ backgroundImage: "url('/images/about-bg.jpg')" }}></div>
+            <div className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/images/about-bg.jpg')" }}></div>
             <div className="absolute inset-0 bg-white/20"></div>
             <Watermark />
             <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10">

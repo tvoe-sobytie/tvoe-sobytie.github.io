@@ -49,7 +49,7 @@ export default function FAQ() {
 
             {/* Фоновое изображение */}
             <div
-                className="absolute inset-0 w-full h-full bg-[length:100%_auto] bg-top bg-no-repeat md:bg-cover md:bg-center"
+                className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
                 style={{ backgroundImage: "url('/images/about-bg.jpg')" }}
             ></div>
 
