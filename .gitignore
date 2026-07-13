@@ -4,3 +4,4 @@ dist.zip
 .vs
 *.local
 .DS_Store
+.netlify
