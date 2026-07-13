@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-    base: '/tvoe-sobytie/',
+    base: '/tvoe_sobytie/',
     plugins: [react()],
     server: {
         host: true,           // ��������� ������ � �������� � ������ ��������� � ����
