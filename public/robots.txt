@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Host: https://tvoe-sobytie.netlify.app/
-Sitemap: https://tvoe-sobytie.netlify.app/sitemap.xml
+Host: https://mrvarvashenyavitaliy-cmd.github.io/tvoe-sobytie.github.io/
+Sitemap: https://mrvarvashenyavitaliy-cmd.github.io/tvoe-sobytie.github.io/sitemap.xml
