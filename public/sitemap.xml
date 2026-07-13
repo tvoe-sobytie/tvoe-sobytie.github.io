@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://mrvarvashenya.github.io/tvoe_sobytie/</loc><priority>1.0</priority></url>
-  <url><loc>https://mrvarvashenya.github.io/tvoe_sobytie/about</loc><priority>0.8</priority></url>
-  <url><loc>https://mrvarvashenya.github.io/tvoe_sobytie/weddings</loc><priority>0.8</priority></url>
-  <url><loc>https://mrvarvashenya.github.io/tvoe_sobytie/anniversaries</loc><priority>0.7</priority></url>
-  <url><loc>https://mrvarvashenya.github.io/tvoe_sobytie/anniversaries-gala</loc><priority>0.7</priority></url>
-  <url><loc>https://mrvarvashenya.github.io/tvoe_sobytie/corporate-gala</loc><priority>0.7</priority></url>
-  <url><loc>https://mrvarvashenya.github.io/tvoe_sobytie/presentations</loc><priority>0.7</priority></url>
-  <url><loc>https://mrvarvashenya.github.io/tvoe_sobytie/forums</loc><priority>0.7</priority></url>
-  <url><loc>https://mrvarvashenya.github.io/tvoe_sobytie/mice</loc><priority>0.7</priority></url>
-  <url><loc>https://mrvarvashenya.github.io/tvoe_sobytie/grand-opening</loc><priority>0.7</priority></url>
-  <url><loc>https://mrvarvashenya.github.io/tvoe_sobytie/fashion-shows</loc><priority>0.7</priority></url>
-  <url><loc>https://mrvarvashenya.github.io/tvoe_sobytie/charity-balls</loc><priority>0.7</priority></url>
+  <url><loc>https://tvoe-sobytie.netlify.app/</loc><priority>1.0</priority></url>
+  <url><loc>https://tvoe-sobytie.netlify.app/about</loc><priority>0.8</priority></url>
+  <url><loc>https://tvoe-sobytie.netlify.app/weddings</loc><priority>0.8</priority></url>
+  <url><loc>https://tvoe-sobytie.netlify.app/anniversaries</loc><priority>0.7</priority></url>
+  <url><loc>https://tvoe-sobytie.netlify.app/anniversaries-gala</loc><priority>0.7</priority></url>
+  <url><loc>https://tvoe-sobytie.netlify.app/corporate-gala</loc><priority>0.7</priority></url>
+  <url><loc>https://tvoe-sobytie.netlify.app/presentations</loc><priority>0.7</priority></url>
+  <url><loc>https://tvoe-sobytie.netlify.app/forums</loc><priority>0.7</priority></url>
+  <url><loc>https://tvoe-sobytie.netlify.app/mice</loc><priority>0.7</priority></url>
+  <url><loc>https://tvoe-sobytie.netlify.app/grand-opening</loc><priority>0.7</priority></url>
+  <url><loc>https://tvoe-sobytie.netlify.app/fashion-shows</loc><priority>0.7</priority></url>
+  <url><loc>https://tvoe-sobytie.netlify.app/charity-balls</loc><priority>0.7</priority></url>
 </urlset>
