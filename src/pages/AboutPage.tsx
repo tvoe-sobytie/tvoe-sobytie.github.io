@@ -20,7 +20,7 @@ export default function AboutPage() {
 
             {/* Фоновое изображение */}
             <div
-                className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
+                className="absolute inset-0 w-full h-full bg-[length:100%_auto] bg-top bg-no-repeat md:bg-cover md:bg-center"
                 style={{ backgroundImage: "url('/images/about-bg.jpg')" }}
             ></div>
 

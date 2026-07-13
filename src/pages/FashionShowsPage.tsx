@@ -1,5 +1,4 @@
-﻿import { useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
+﻿import { useNavigate } from 'react-router-dom';
 import Watermark from '../components/Watermark';
 import ScrollToTop from '../components/ScrollToTop';
 import FloatingBotButton from '../components/FloatingBotButton';
@@ -11,17 +10,6 @@ export default function FashionShowsPage() {
         'Светские события на стыке моды и искусства, которые становятся главными событиями сезона.'
     );
     const navigate = useNavigate();
-    const scrollRef = useRef<HTMLDivElement>(null);
-
-    const scroll = (direction: 'left' | 'right') => {
-        if (scrollRef.current) {
-            const scrollAmount = 400;
-            scrollRef.current.scrollBy({
-                left: direction === 'left' ? -scrollAmount : scrollAmount,
-                behavior: 'smooth'
-            });
-        }
-    };
 
     const goToImageEvents = () => {
         navigate('/');
@@ -43,20 +31,11 @@ export default function FashionShowsPage() {
         'Создание атмосферы галереи: проектирование выставочного света, подиумов сложной конфигурации и арт-объектов.'
     ];
 
-    const galleryImages = [
-        '/images/gallery-1.jpg',
-        '/images/gallery-3.jpg',
-        '/images/gallery-4.jpg',
-        '/images/gallery-5.jpg',
-        '/images/gallery-6.jpg',
-        '/images/gallery-1.jpg'
-    ];
-
     return (
         <div className="relative min-h-screen overflow-hidden">
 
             <div
-                className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
+                className="absolute inset-0 w-full h-full bg-[length:100%_auto] bg-top bg-no-repeat md:bg-cover md:bg-center"
                 style={{ backgroundImage: "url('/images/limon-bg.jpg')" }}
             ></div>
 
@@ -109,51 +88,6 @@ export default function FashionShowsPage() {
                                 <p className="text-stone-700 text-sm leading-relaxed">{service}</p>
                             </div>
                         ))}
-                    </div>
-                </div>
-
-                <div>
-                    <p className="text-center text-[10px] tracking-[0.2em] text-stone-700 uppercase font-bold mb-6 drop-shadow-sm">
-                        Наши проекты
-                    </p>
-
-                    <div className="relative">
-                        <button
-                            onClick={() => scroll('left')}
-                            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white rounded-full p-2 shadow-md hidden md:block"
-                        >
-                            <svg className="w-5 h-5 text-stone-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                            </svg>
-                        </button>
-
-                        <div
-                            ref={scrollRef}
-                            className="flex overflow-x-auto gap-5 pb-6 scrollbar-none snap-x snap-mandatory"
-                            style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
-                        >
-                            {galleryImages.map((img, index) => (
-                                <div
-                                    key={index}
-                                    className="w-[280px] md:w-[320px] shrink-0 snap-start aspect-[4/5] rounded-2xl overflow-hidden bg-stone-200 shadow-md"
-                                >
-                                    <img
-                                        src={img}
-                                        alt={`Модный показ ${index + 1}`}
-                                        className="w-full h-full object-cover"
-                                    />
-                                </div>
-                            ))}
-                        </div>
-
-                        <button
-                            onClick={() => scroll('right')}
-                            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white rounded-full p-2 shadow-md hidden md:block"
-                        >
-                            <svg className="w-5 h-5 text-stone-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                            </svg>
-                        </button>
                     </div>
                 </div>
 

@@ -50,12 +50,9 @@ export default function Events() {
 
             {/* Фоновое изображение */}
             <div
-                className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
+                className="absolute inset-0 w-full h-full bg-[length:100%_auto] bg-top bg-no-repeat md:bg-cover md:bg-center"
                 style={{
-                    backgroundImage: "url('/images/site-bg.jpg')",
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    backgroundRepeat: 'no-repeat'
+                    backgroundImage: "url('/images/site-bg.jpg')"
                 }}
             ></div>
 
